@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex
+}
+
+.main_header {
+  background-color: #CEF9DC;
+  height: 100px;
+}
+
+.side-bar {
+  background-color: #CC6633;
+  width: 200px;
+  height: calc(100vh - 100px);
+}
+.main_room {
+  background-color: #FFC7AF;
+  width: 200px;
+  height: 100vh;
+}
