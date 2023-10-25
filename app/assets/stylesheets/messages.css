@@ -1,19 +1,30 @@
 .wrapper {
-  display: flex
+  display: flex;
 }
-
-.main_header {
-  background-color: #CEF9DC;
+.side-bar {
+  background-color: #253141;
+  width: 300px;
+  height: 100vh;
+}
+.side-bar-header {
   height: 100px;
 }
-
-.side-bar {
-  background-color: #CC6633;
-  width: 200px;
+.rooms {
+  background-color: #2F3E51;
   height: calc(100vh - 100px);
 }
-.main_room {
-  background-color: #FFC7AF;
-  width: 200px;
-  height: 100vh;
+.chat {
+  background-color: #FFFFFF;
+  width: calc(100vw - 300px);
+}
+.chat-header {
+  height: 100px;
+}
+.messages {
+  background-color: #FAFAFA;
+  height: calc(100vh - 100px - 90px);
+}
+.form {
+  background-color: #DDDDDD;
+  height: 90px;
 }
