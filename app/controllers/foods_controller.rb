@@ -1,5 +1,5 @@
 class FoodsController < ApplicationController
   def new
-    @foods = Food.all
+    @foods = Food.new
   end
 end
